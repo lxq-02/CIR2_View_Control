@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CIR_Control", "CIR_Control.vcxproj", "{96ED7769-570F-43D4-B75F-2107AFA13F00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96ED7769-570F-43D4-B75F-2107AFA13F00}.Debug|x86.ActiveCfg = Debug|Win32
+		{96ED7769-570F-43D4-B75F-2107AFA13F00}.Debug|x86.Build.0 = Debug|Win32
+		{96ED7769-570F-43D4-B75F-2107AFA13F00}.Release|x86.ActiveCfg = Release|Win32
+		{96ED7769-570F-43D4-B75F-2107AFA13F00}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C04B471A-F90A-48D8-B88B-3DD18F9018A1}
+	EndGlobalSection
+EndGlobal
