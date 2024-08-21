@@ -46,6 +46,17 @@ CIR_Control::CIR_Control(QWidget* parent)
         combo->addItem("1");
     }
 
+    for (int i = 2; i < 1201; i++)
+    {
+        QString str = QStringLiteral("%1").arg(i);
+        sendCombos[2]->addItem(str);
+    }
+    for (int i = 2; i < 6; i++)
+    {
+        QString str = QStringLiteral("%1").arg(i);
+        sendCombos[8]->addItem(str);
+    }
+
     // 接收数据的标签和选择框
     recvLabels << new QLabel(QStringLiteral("主控状态："))
         << new QLabel(QStringLiteral("风压查询："))
@@ -94,6 +105,7 @@ CIR_Control::CIR_Control(QWidget* parent)
     QWidget* centralWidget = new QWidget();
     centralWidget->setLayout(mainLayout);
     setCentralWidget(centralWidget);
+
 
     // 初始化网络数据通信
     InitSmtNet(17);
